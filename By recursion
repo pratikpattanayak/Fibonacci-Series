@@ -1,0 +1,15 @@
+def fibonacci(n):
+    if(n<2):
+        return n
+    else:
+        return fibonacci(n-1)+fibonacci(n-2) 
+    
+n=int(input("Enter the non negative no upto which fibonacci is to be calculated:"))
+if(n<0):
+     print(" Fibonacci of negative no doesnt exist")
+else:
+    print("The fibonacci no at posn ",n,'is',fibonacci(n))
+     
+       
+ 
+ 
